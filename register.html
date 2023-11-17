@@ -57,7 +57,7 @@
                     errorMsg = "Please enter a valid email address";
                 }else if(!passwordRegex.test(password)){
                     errorMsg = "Password must have atleast a8 characters, one uppercase, one lowercase, onenumber and a symbol";
-                }else if(password !== confirmpassword){
+                }else if(password != confirmpassword){
                     errorMsg = "Password and confirm password must be matching";
                 }else{
                     errorMsg = "";
